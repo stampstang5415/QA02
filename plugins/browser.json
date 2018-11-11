@@ -12,7 +12,23 @@
     },
     "cordova-plugin-qrscanner": {
       "PACKAGE_NAME": "com.Patcharapon.hello"
+    },
+    "cordova-plugin-inappbrowser": {
+      "PACKAGE_NAME": "com.Patcharapon.hello"
+    },
+    "cordova-plugin-buildinfo": {
+      "PACKAGE_NAME": "com.Patcharapon.hello"
+    },
+    "cordova-universal-links-plugin": {
+      "PACKAGE_NAME": "com.Patcharapon.hello"
+    },
+    "cordova-plugin-browsertab": {
+      "PACKAGE_NAME": "com.Patcharapon.hello"
     }
   },
-  "dependent_plugins": {}
+  "dependent_plugins": {
+    "cordova-plugin-compat": {
+      "PACKAGE_NAME": "com.Patcharapon.hello"
+    }
+  }
 }

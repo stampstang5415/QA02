@@ -47,11 +47,11 @@
       <ons-toolbar style="background: rgb(219, 91, 5);" >
         <div class="left">
           <ons-toolbar-button>
-            <ons-icon style="color: rgb(255, 255, 255);" icon="fa-shopping-bag"></ons-icon>
+            <ons-icon style="color: rgb(255, 255, 255);" onclick="scanQR()" icon="fa-shopping-bag"></ons-icon>
 
           </ons-toolbar-button>
         </div>
-        <div class="center" style="text-align:center" id="appname">#</div>
+        <div class="center" style="text-align:center" id="appname">#</div>y
         <div class="right">
           <ons-toolbar-button>
             <ons-icon style="color: rgb(255, 255, 255);" onclick="window.location.href = 'logout.html'" icon="md-help"></ons-icon>
@@ -319,13 +319,6 @@
     </ons-page>
   </template>
 
-
-
-
-
-
-
-
   <script>
     var prev = function () {
       var carousel = document.getElementById('carousel');
@@ -343,7 +336,7 @@
   </script>
   <script>
     getHomeData()
-    tatol();
+
     document.addEventListener('prechange', function (event) {
       if (event.index == 0) {
         console.log('Home click');
@@ -370,6 +363,10 @@
 
 
     function getHomeData() {
+      var code = localStorage.getItem('code');
+        if(code){
+            $('#search').val(code);
+        }
       var docRef = db.collection("UI").doc("home");
       docRef.get().then(function (doc) {
         if (doc.exists) {
@@ -588,6 +585,9 @@
       })
 
     }
+    function scanQR() {
+            window.location.href = 'scan.html';
+        }
   </script>
 
 </html>

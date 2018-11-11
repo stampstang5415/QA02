@@ -6,8 +6,9 @@ INJECTED from D:\977-341\hellocordova\platforms\android\app\src\main\AndroidMani
 INJECTED from D:\977-341\hellocordova\platforms\android\app\src\main\AndroidManifest.xml:2:1-17:12
 MERGED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\STD\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.3.0.aar\1fd8b81b52f15a968241ed07b8a5c955\AndroidManifest.xml:17:1-55:12
 MERGED from [com.android.support:appcompat-v7:23.1.0] C:\Users\STD\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.1.0.aar\3fc394581758eaba0fa1065c021c6a5d\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:customtabs:23.3.0] C:\Users\STD\.gradle\caches\transforms-1\files-1.1\customtabs-23.3.0.aar\bd2cf25097c1acb20b709ef1fd5ecc96\AndroidManifest.xml:17:1-24:12
 MERGED from [:CordovaLib] D:\977-341\hellocordova\platforms\android\CordovaLib\build\intermediates\manifests\full\debug\AndroidManifest.xml:20:1-27:12
-MERGED from [com.android.support:support-v4:23.1.0] C:\Users\STD\.gradle\caches\transforms-1\files-1.1\support-v4-23.1.0.aar\f7e376fc1c11b85a53acbb9e12475a13\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-v4:23.3.0] C:\Users\STD\.gradle\caches\transforms-1\files-1.1\support-v4-23.3.0.aar\e452b1626224ef14221ef6f5919f654f\AndroidManifest.xml:17:1-24:12
 INJECTED from D:\977-341\hellocordova\platforms\android\app\src\main\AndroidManifest.xml:2:1-17:12
 INJECTED from D:\977-341\hellocordova\platforms\android\app\src\main\AndroidManifest.xml:2:1-17:12
 INJECTED from D:\977-341\hellocordova\platforms\android\app\src\main\AndroidManifest.xml:2:1-17:12
@@ -51,8 +52,10 @@ MERGED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\STD\.gradle\
 MERGED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\STD\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.3.0.aar\1fd8b81b52f15a968241ed07b8a5c955\AndroidManifest.xml:45:5-53:19
 MERGED from [com.android.support:appcompat-v7:23.1.0] C:\Users\STD\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.1.0.aar\3fc394581758eaba0fa1065c021c6a5d\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:appcompat-v7:23.1.0] C:\Users\STD\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.1.0.aar\3fc394581758eaba0fa1065c021c6a5d\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.1.0] C:\Users\STD\.gradle\caches\transforms-1\files-1.1\support-v4-23.1.0.aar\f7e376fc1c11b85a53acbb9e12475a13\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.1.0] C:\Users\STD\.gradle\caches\transforms-1\files-1.1\support-v4-23.1.0.aar\f7e376fc1c11b85a53acbb9e12475a13\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:customtabs:23.3.0] C:\Users\STD\.gradle\caches\transforms-1\files-1.1\customtabs-23.3.0.aar\bd2cf25097c1acb20b709ef1fd5ecc96\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:customtabs:23.3.0] C:\Users\STD\.gradle\caches\transforms-1\files-1.1\customtabs-23.3.0.aar\bd2cf25097c1acb20b709ef1fd5ecc96\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.3.0] C:\Users\STD\.gradle\caches\transforms-1\files-1.1\support-v4-23.3.0.aar\e452b1626224ef14221ef6f5919f654f\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.3.0] C:\Users\STD\.gradle\caches\transforms-1\files-1.1\support-v4-23.3.0.aar\e452b1626224ef14221ef6f5919f654f\AndroidManifest.xml:22:5-20
 	android:supportsRtl
 		ADDED from D:\977-341\hellocordova\platforms\android\app\src\main\AndroidManifest.xml:5:114-140
 	android:label
@@ -89,18 +92,24 @@ ADDED from D:\977-341\hellocordova\platforms\android\app\src\main\AndroidManifes
 		ADDED from D:\977-341\hellocordova\platforms\android\app\src\main\AndroidManifest.xml:9:27-74
 uses-sdk
 ADDED from D:\977-341\hellocordova\platforms\android\app\src\main\AndroidManifest.xml:13:5-74
+INJECTED from D:\977-341\hellocordova\platforms\android\app\src\main\AndroidManifest.xml:13:5-74
 MERGED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\STD\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.3.0.aar\1fd8b81b52f15a968241ed07b8a5c955\AndroidManifest.xml:19:5-43
 MERGED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\STD\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.3.0.aar\1fd8b81b52f15a968241ed07b8a5c955\AndroidManifest.xml:19:5-43
 MERGED from [com.android.support:appcompat-v7:23.1.0] C:\Users\STD\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.1.0.aar\3fc394581758eaba0fa1065c021c6a5d\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:appcompat-v7:23.1.0] C:\Users\STD\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.1.0.aar\3fc394581758eaba0fa1065c021c6a5d\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:customtabs:23.3.0] C:\Users\STD\.gradle\caches\transforms-1\files-1.1\customtabs-23.3.0.aar\bd2cf25097c1acb20b709ef1fd5ecc96\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:23.3.0] C:\Users\STD\.gradle\caches\transforms-1\files-1.1\customtabs-23.3.0.aar\bd2cf25097c1acb20b709ef1fd5ecc96\AndroidManifest.xml:20:5-44
 MERGED from [:CordovaLib] D:\977-341\hellocordova\platforms\android\CordovaLib\build\intermediates\manifests\full\debug\AndroidManifest.xml:25:5-44
 MERGED from [:CordovaLib] D:\977-341\hellocordova\platforms\android\CordovaLib\build\intermediates\manifests\full\debug\AndroidManifest.xml:25:5-44
-MERGED from [com.android.support:support-v4:23.1.0] C:\Users\STD\.gradle\caches\transforms-1\files-1.1\support-v4-23.1.0.aar\f7e376fc1c11b85a53acbb9e12475a13\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.1.0] C:\Users\STD\.gradle\caches\transforms-1\files-1.1\support-v4-23.1.0.aar\f7e376fc1c11b85a53acbb9e12475a13\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.3.0] C:\Users\STD\.gradle\caches\transforms-1\files-1.1\support-v4-23.3.0.aar\e452b1626224ef14221ef6f5919f654f\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.3.0] C:\Users\STD\.gradle\caches\transforms-1\files-1.1\support-v4-23.3.0.aar\e452b1626224ef14221ef6f5919f654f\AndroidManifest.xml:20:5-43
+INJECTED from D:\977-341\hellocordova\platforms\android\app\src\main\AndroidManifest.xml:13:5-74
 	android:targetSdkVersion
 		ADDED from D:\977-341\hellocordova\platforms\android\app\src\main\AndroidManifest.xml:13:42-71
 	android:minSdkVersion
 		ADDED from D:\977-341\hellocordova\platforms\android\app\src\main\AndroidManifest.xml:13:15-41
+		INJECTED from D:\977-341\hellocordova\platforms\android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\977-341\hellocordova\platforms\android\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.CAMERA
 ADDED from D:\977-341\hellocordova\platforms\android\app\src\main\AndroidManifest.xml:14:5-90
 MERGED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\STD\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.3.0.aar\1fd8b81b52f15a968241ed07b8a5c955\AndroidManifest.xml:21:5-65
