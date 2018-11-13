@@ -11,6 +11,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
     <script src="ejs.js"></script>
     <script src="https://www.gstatic.com/firebasejs/5.5.7/firebase.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil" rel="stylesheet">
     <script src="cordova.js"></script>
     
     
@@ -36,6 +37,11 @@
         });
     </script>
     <title>Document</title>
+    <style>
+        *{
+          font-family: 'Allerta Stencil', sans-serif;
+      }
+    </style>
 </head>
 
 <body>
@@ -43,21 +49,24 @@
     
        
        <ons-page>
-        <div style="text-align: center; margin-top: 30px;">
+        <div style="text-align: center; margin-top: 30px; ">
+          <p>
+              <img class="" src="https://firebasestorage.googleapis.com/v0/b/shopper-45945.appspot.com/o/aa.png?alt=media&token=3ebcf4e2-9766-4786-a9eb-315255d9a149" width="60%"height="40%">
+          </p>
           <p>
             <ons-input id="username" modifier="underbar" placeholder="Username" float></ons-input>
           </p>
           <p>
             <ons-input id="password" modifier="underbar" type="password" placeholder="Password" float></ons-input>
           </p>
-          <p style="margin-top: 30px;">
-            <ons-button onclick="login()">Sign in</ons-button>
+          <p style="margin-top: 30px;" >
+            <ons-button style="background-color: aqua" onclick="login()">Sign in</ons-button>
           </p> 
           <p style="margin-top: 30px;">
-                <ons-button onclick="google()">Sign in with Google</ons-button>
+                <ons-button style="background-color: rgb(236, 50, 37)" onclick="google()">Sign in with Google</ons-button>
          </p>
          <p style="margin-top: 30px;">
-            <ons-button onclick="facebook()">Sign in with facebook</ons-button>
+            <ons-button style="background-color: rgb(55, 90, 247)" onclick="facebook()">Sign in with facebook</ons-button>
      </p>
           <p style="margin-top: 30px;">
                <a href="register.html">Sign up for a new user</a>
