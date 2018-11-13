@@ -4,7 +4,7 @@
             "outputFile": "D:\\977-341\\hellocordova\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v22\\values-v22.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\STD\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.1.0.aar\\3fc394581758eaba0fa1065c021c6a5d\\res\\values-v22\\values-v22.xml",
+                    "source": "C:\\Users\\STD\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.1.0.aar\\53de2abd2c423973e0173de094b8b6fe\\res\\values-v22\\values-v22.xml",
                     "from": {
                         "startLines": "4,5,6,9",
                         "startColumns": "4,4,4,4",

@@ -14,8 +14,10 @@
   <script src="https://unpkg.com/onsenui/js/onsenui.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
   <script src="ss.js"></script>
+  <script src="style.css"></script>
   <script src="ejs.js"></script>
   <script src="https://www.gstatic.com/firebasejs/5.5.7/firebase.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Kanit|Lato" rel="stylesheet">
 
   <script>
     // Initialize Firebase
@@ -27,14 +29,19 @@
     firebase.initializeApp(config);
   </script>
   <title>PSU Shopping</title>
-
-
-
+  <style>
+      *{
+        font-family: 'Allerta Stencil', sans-serif;
+    }
+  </style>
 </head>
 
 <body>
   <ons-page>
     <div style="text-align: center; margin-top: 30px;">
+        <p>
+            <img class="" src="https://firebasestorage.googleapis.com/v0/b/shopper-45945.appspot.com/o/giphy.webp?alt=media&token=41fa410f-d424-428a-b3c8-2d31fc489196" width="60%"height="40%">
+        </p>
       <p style="margin-top: 30px;">
         <ons-button onclick="logout()">Sign Out</ons-button>
       </p>

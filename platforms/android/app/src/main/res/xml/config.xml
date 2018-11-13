@@ -20,6 +20,12 @@
     <feature name="BrowserTab">
         <param name="android-package" value="com.google.cordova.plugin.browsertab.BrowserTab" />
     </feature>
+    <universal-links>
+        <host name="shopper5415.page.link" scheme="https" />
+        <host name="shopper-45945.firebaseapp.com" scheme="https">
+            <path url="/__/auth/callback" />
+        </host>
+    </universal-links>
     <name>HelloWorld</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
@@ -37,4 +43,5 @@
     <allow-intent href="geo:*" />
     <allow-intent href="market:*" />
     <preference name="loglevel" value="DEBUG" />
+    <preference name="AndroidLaunchMode" value="singleTask" />
 </widget>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "468522899444",
+    "firebase_url": "https://shopper-45945.firebaseio.com",
+    "project_id": "shopper-45945",
+    "storage_bucket": "shopper-45945.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:468522899444:android:c5eef13c3fdd274f",
+        "android_client_info": {
+          "package_name": "com.Patcharapon.hello"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "468522899444-kviat13og2hsj8aisihcloefkic6f9cg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVn0Fqk-dZgOjqn1TgDlgsDP8_5G9cppA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

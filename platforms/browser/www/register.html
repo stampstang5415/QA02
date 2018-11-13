@@ -12,6 +12,7 @@
     crossorigin="anonymous">
 
   <script src="https://unpkg.com/onsenui/js/onsenui.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Kanit|Lato" rel="stylesheet">
   <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
   <script src="ss.js"></script>
   <script src="ejs.js"></script>
@@ -27,15 +28,23 @@
     firebase.initializeApp(config);
   </script>
   <title>PSU Shopping</title>
-
-
-
+  <style>
+      *{
+        font-family: 'Allerta Stencil', sans-serif;
+    }
+  </style>
 </head>
 
 <body>
   <ons-page>
+      <ons-toolbar>
+          <div class="left">
+            <ons-back-button onclick="window.location.href = 'login.html'" >Back</ons-back-button>
+          </div>
+          <div class="center">Register Detail</div>
+        </ons-toolbar>
     <div style="text-align: center; margin-top: 30px;">
-        <h3>Register</h3>
+        <h1>Register</h1>
       <p>
         <ons-input id="username" modifier="underbar" placeholder="Username" float></ons-input>
       </p>
@@ -43,7 +52,7 @@
         <ons-input id="password" modifier="underbar" type="password" placeholder="Password" float></ons-input>
       </p>
       <p style="margin-top: 30px;">
-        <ons-button onclick="register()">Sign up for a new user</ons-button>
+        <ons-button style="background-color: rgb(37, 206, 236)" onclick="register()">Sign up for a new user</ons-button>
       </p>
     </div>
   </ons-page>
